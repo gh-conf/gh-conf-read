@@ -1,0 +1,33 @@
+{
+  "name": "gh-conf-read",
+  "version": "1.0.0",
+  "description": "Reads github config file",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshadkazmi42/gh-conf-read.git"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "keywords": [
+    "github",
+    "github-config",
+    "gh-config",
+    "gh-conf"
+  ],
+  "author": "Arshad Kazmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arshadkazmi42/gh-conf-read/issues"
+  },
+  "homepage": "https://github.com/arshadkazmi42/gh-conf-read#readme"
+}
