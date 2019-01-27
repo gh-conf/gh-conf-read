@@ -1,6 +1,6 @@
 {
-  "name": "gh-conf-read",
-  "version": "1.0.1",
+  "name": "@gh-conf/gh-conf-read",
+  "version": "1.0.0",
   "description": "Reads github config file",
   "main": "index.js",
   "directories": {
