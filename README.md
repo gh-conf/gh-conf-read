@@ -29,7 +29,7 @@ const readConf = require('gh-conf-read');
 
 (async () => {
   try {
-    const configContent = await got('./gh-conf-read');
+    const configContent = await readConf('./gh-conf-read');
     console.log(configContent);
     /**
      * [core]
