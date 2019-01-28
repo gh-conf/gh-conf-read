@@ -2,6 +2,23 @@
 # yarn lockfile v1
 
 
+"@gh-conf/gh-conf-path@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@gh-conf/gh-conf-path/-/gh-conf-path-1.0.0.tgz#ed7c6bba3ccbea02d674389c87b6944e25f16cbe"
+  integrity sha512-Kyzk5yEhsXjqxreo04pXdeoy8iNrd+TpX3bqEZL7bUXIvWx0w4qzP6d2T+jdNQzjLdqpZ4VqL7Vv+VgaaujMAQ==
+
+"@gh-conf/gh-conf-response@^1.0.0", "@gh-conf/gh-conf-response@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@gh-conf/gh-conf-response/-/gh-conf-response-1.0.2.tgz#089992d2daa044bd13a5790b7e3683f38f241b00"
+  integrity sha512-4KNpBYbB+aWPbOD3Ckjqtsp0S07MPegTi+/1CZ19uQJdUz4qZt8w7Bs4wvUSG1/qxJ+rJRgEpwteQMj1fXWXNg==
+
+"@gh-conf/gh-conf-validate@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@gh-conf/gh-conf-validate/-/gh-conf-validate-1.0.1.tgz#dc71d215c365e7209ab3521f2b06a747bd94fc58"
+  integrity sha512-C8/LqnU3hRUJG9vLWt6T/PtSLxc0OHsVvy3MuhRmjSa0u45qvVXibEMO78CC0T1X9NWHrz/zuhBMbfG3EfmmTA==
+  dependencies:
+    "@gh-conf/gh-conf-response" "^1.0.0"
+
 assertion-error@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/assertion-error/-/assertion-error-1.1.0.tgz#e60b6b0e8f301bd97e5375215bda406c85118c0b"
