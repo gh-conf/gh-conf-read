@@ -19,13 +19,13 @@ Please consider donating, if you like my work
 ## Install
 
 ```
-$ npm install gh-conf-read
+$ npm install @gh-conf/gh-conf-read
 ```
 
 ## Usage
 
 ```javascript
-const readConf = require('gh-conf-read');
+const readConf = require('@gh-conf/gh-conf-read');
 
 (async () => {
   try {
@@ -45,7 +45,7 @@ const readConf = require('gh-conf-read');
      *   merge = refs/heads/master
      * [user]
      *     name = Arshad Kazmi
-     *     email = gh-conf@gmail.com
+     *     email = arshadkazmi42@gmail.com
      **/
   } catch (error) {
     console.log(error);
