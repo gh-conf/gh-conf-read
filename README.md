@@ -25,7 +25,7 @@ $ npm install @gh-conf/gh-conf-read
 ## Usage
 
 ```javascript
-const readConf = require('@gh-conf/gh-conf-read');
+const { readConf } = require('@gh-conf/gh-conf-read');
 
 (async () => {
   try {
