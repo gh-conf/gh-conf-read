@@ -4,7 +4,7 @@
 [![Github Repo Size](https://img.shields.io/github/repo-size/gh-conf/gh-conf-read.svg)](https://github.com/gh-conf/gh-conf-read)
 [![Contributors](https://img.shields.io/github/contributors/gh-conf/gh-conf-read.svg)](https://github.com/gh-conf/gh-conf-read/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/gh-conf/gh-conf-read.svg)](https://github.com/gh-conf/gh-conf-read/commits/master)
-
+[![NPM Version](https://img.shields.io/npm/v/@gh-conf/gh-conf-read.svg)](https://www.npmjs.com/package/@gh-conf/gh-conf-read)
 
 It reads the github config file and returns it contents.
 It needs respository path as input to read the config.
@@ -25,7 +25,7 @@ $ npm install @gh-conf/gh-conf-read
 ## Usage
 
 ```javascript
-const readConf = require('@gh-conf/gh-conf-read');
+const { readConf } = require('@gh-conf/gh-conf-read');
 
 (async () => {
   try {
