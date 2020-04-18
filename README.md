@@ -19,7 +19,7 @@ Please consider donating, if you like my work
 ## Install
 
 ```
-$ npm install @gh-conf/gh-conf-read
+$ npm install @gh-conf/gh-conf-readgit
 ```
 
 ## Usage
